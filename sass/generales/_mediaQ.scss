@@ -1,0 +1,129 @@
+@media screen and ( max-width: 479px){
+    .imagenesindex
+    {
+        grid-template-columns: 350px;
+    }
+    .serviimag{
+        display: none;
+    }
+    
+    .perfil{
+        grid-template-columns: 500px;
+    }
+    
+    .perfil img{
+        width: 500px;
+    }
+    
+    .perfil2{
+        grid-template-columns: 500px;
+    }
+    
+    .perfil2 img{
+        width: 500px;
+    }
+    
+    
+    .nosotros img{
+        width: 100%;
+    }
+    
+    .nosotros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+    
+    .contacton2{
+        .contacton2 img{
+            width: 250px;
+        } 
+        
+        display:flex;
+        flex-direction: column;
+        padding-left: 10%;
+    
+    }
+    .contacton3
+        {
+           width: 80%;
+        
+        }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1200px)
+{
+ 
+.imagenesindex{
+    grid-template-columns: 400px;
+    grid-template-rows: 400px 400px 400px;
+    row-gap:1%;
+    justify-content: center; 
+}
+
+.serviimag{
+    display:none;
+}
+
+.perfil img{
+    width: 600px;
+}
+
+.perfil{
+    grid-template-columns: 600px;
+}
+
+.perfil2 img{
+    width: 600px;
+}
+
+.perfil2{
+    grid-template-columns: 600px;
+}
+
+.nosotros img{
+    width: 400px;
+}
+
+.nosotros{ 
+    margin-top: 42%;
+    margin-bottom: 30%;
+    grid-template-columns:500px;
+    grid-template-rows:350px  300px 310px 400px;
+    grid-template-areas: 
+    
+    "descripcion"
+    "mision"
+    "vision"
+    "imagen"
+}
+
+.contacton2{
+    margin-top: 1%;
+    grid-template-columns:400px;
+    grid-template-rows:500px 500x;
+    row-gap: 0px;
+    grid-template-areas: 
+    "datos"
+    "imagen";
+
+    .datos{
+        grid-area: datos;
+    }
+    .imagencontactanos{
+        grid-area: imagen;
+    }   
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+.serviciod{
+    .titulos1{
+        margin-top: 10%;
+        margin-bottom: 4%;
+        text-align: center;
+        font-size: 3rem;
+    }
+    .titulos2{
+        margin-top: 10%;
+        margin-bottom: 5%;
+        text-align: center;
+        font-size: 3rem;
+    }
+}
+
+.servitexx1{
+    margin-top: 10%;
+    .servitexx{
+        text-decoration: none;
+        .texser1{
+            font-size: 3rem;
+            text-align: center;
+        }
+        .texser1:hover{
+            color:$claro;
+            background-color: $oscuro;
+            font-weight: 800;
+        }
+        }
+        }
+
+    .serviimag{
+            display: grid;
+            grid-template-columns: 400px 400px 400px;
+            column-gap: 5%;
+            justify-content: center;
+
+            .imagenser1 img{
+                width: 400px;
+            }
+            .imagenser2 img{
+                width: 400px;
+            }
+            .imagenser3 img{
+                width: 400px;
+            }
+            .n4 img{
+                width: 500px;
+            }
+
+            }
+    
+
+    
+
+
+

@@ -1,0 +1,62 @@
+.contacton{
+    .tituloc {
+        margin-top: 10%;
+        margin-bottom: 4%;
+        text-align: center;
+        font-size: 3rem;
+}
+}
+
+.contacton2{
+    margin-top: 10%;
+    background-color: #E0F4FF;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows:400px;
+    row-gap: 100%;
+    justify-content: center; 
+
+    .datos{
+        margin-top: 12%;
+    }
+}
+
+.imagencontactanos img{
+    width: 400px;
+}
+
+.contacton3{
+    width: 400px;
+    margin:auto;
+    margin-top: 2%;
+    text-align: center;
+    background-color:#87C4FF;
+    padding: 30px;
+    border-radius: 2px;
+    font-family:'calibri';
+    color:white;
+    box-shadow: 7px 13px 37px #87C4FF;
+    .form{
+        margin-bottom: 5%;       
+}
+.cajas{
+    width: 100%;
+    background-color:aliceblue;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #87C4FF;
+    font-family: 'calibri';
+    font-size: 18px;
+    margin-left:-2%;
+}
+.boton{
+    width: 50%; 
+    background-color: #0389f7;
+    padding: 12px;
+    color: white;
+    margin-left: 16px 0;
+    font-size: 25px;
+    font-family: 'calibri';
+ }
+}

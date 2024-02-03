@@ -1,0 +1,51 @@
+
+    .nosotros{
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: 450px 450px;
+        grid-template-rows:100px 400px 500px;
+        column-gap: 5%;
+        row-gap: 10%;
+        justify-content: center;
+        align-content: center;
+        text-align: center;   
+        grid-template-areas: 
+        "descripcion descripcion"
+        "mision vision"
+        "imagen imagen";
+
+        .n1{
+            text-align: justify;
+            grid-area: descripcion;
+            margin-left: 2%;
+            margin-right: 2%;
+            .pnosotros{
+                font-size: 25px;
+            }
+        }
+
+        .n2{
+            background-color: aliceblue;
+            grid-area: mision;
+            .pnosotros{
+                font-size: 25px;
+            }
+            
+        }
+        
+        .n3{
+            background-color: aliceblue;
+            grid-area: vision;
+            .pnosotros{
+                font-size: 25px;
+            }
+        }
+        
+        .n4{
+            grid-area: imagen;
+            .pnosotros{
+                font-size: 25px;
+            }
+        }
+
+    }

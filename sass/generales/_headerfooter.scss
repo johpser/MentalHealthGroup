@@ -1,0 +1,39 @@
+header{
+    .navcolor{
+        background-color:$claro;
+    img{
+        width: 120px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    ul{
+        li{
+            border-bottom: 3px $oscuro solid;
+            padding-bottom: 1px;
+            margin: 20px;          
+    }   
+    }       
+    }
+    }
+
+    .banner{
+        background-image: url(../archivos/banner5.avif);
+        height: 200px;
+        background-size: cover;
+        background-position:center;
+        text-align:center;
+        font-size: larger;
+        color:white;
+        text-shadow: 4px 1px 19px rgba(0,0,0,1);
+        margin-bottom: 10%;
+    }
+
+    footer{
+        background-color:#39A7FF;
+        text-align: center;
+        margin-top: 5%;
+        
+    }
+
+
+

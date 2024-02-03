@@ -1,0 +1,48 @@
+.titulo2{
+    margin-top: 2%;
+    text-align: center;
+    color:black;
+    text-decoration:underline;
+}
+
+.bienvenida{
+    background-color:aliceblue;
+    color:black ;
+    padding: 5px;
+    padding-left: 2%;
+    margin-top: 4%;
+
+    .texto1{
+        text-align: justify;
+        font-size: 2rem;
+    }
+    
+}
+
+.imagenesindex{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    column-gap: 5%;
+    justify-content: center; 
+    }
+
+    .imagen1 img{
+        padding-left: 10%;
+        width: 350px;
+    }
+
+    .imagen2 img{
+        padding-left: 10%;
+        width: 350px;
+    }
+    
+    .imagen3 img{
+        padding-left: 10%;
+        width: 350px;
+        
+    }
+    .textoi{
+        text-align: center;
+        text-transform:uppercase;
+     }

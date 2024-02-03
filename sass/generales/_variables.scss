@@ -1,0 +1,19 @@
+//tipo de letra
+$font: 'Roboto Slab', serif;
+
+//colores
+$claro: #E0F4FF;
+$intermedio: hsl(210, 100%, 76%);
+$oscuro:#39A7FF;
+$crema: #FFEED9;
+
+// mixin 
+
+@mixin flex ($direccion, $justify, $aling){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $aling;
+}
+
+
