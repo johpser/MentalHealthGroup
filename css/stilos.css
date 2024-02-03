@@ -325,17 +325,17 @@ footer {
     display: none;
   }
   .perfil {
-    grid-template-columns: 500px;
+    grid-template-columns: 400px;
   }
   .perfil img {
-    width: 500px;
+    width: 400px;
   }
   .perfil2 {
     padding-left: 10%;
-    grid-template-columns: 500px;
+    grid-template-columns: 400px;
   }
   .perfil2 img {
-    width: 500px;
+    width: 400px;
   }
   .nosotros img {
     width: 100%;
@@ -350,7 +350,7 @@ footer {
     flex-direction: column;
     padding-left: 10%;
   }
-  .contacton2 .contacton2 img {
+  .contacton2 img {
     width: 250px;
   }
   .contacton3 {
