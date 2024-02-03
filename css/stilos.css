@@ -331,7 +331,6 @@ footer {
     width: 400px;
   }
   .perfil2 {
-    padding-left: 10%;
     grid-template-columns: 400px;
   }
   .perfil2 img {
