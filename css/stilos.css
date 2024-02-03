@@ -80,7 +80,8 @@ footer {
   margin-top: 10%;
   display: grid;
   grid-template-columns: 400px 400px 400px;
-  column-gap: 5%;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
   justify-content: center;
 }
 
@@ -169,7 +170,8 @@ footer {
   display: grid;
   grid-template-columns: 450px 450px;
   grid-template-rows: 100px 400px 500px;
-  column-gap: 5%;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
   row-gap: 10%;
   justify-content: center;
   align-content: center;
@@ -223,7 +225,8 @@ footer {
   margin-bottom: 10%;
   display: grid;
   grid-template-columns: 300px 900px;
-  column-gap: 10%;
+  -moz-column-gap: 10%;
+       column-gap: 10%;
   justify-content: center;
   align-content: first baseline;
 }
@@ -255,7 +258,8 @@ footer {
   margin-bottom: 10%;
   display: grid;
   grid-template-columns: 300px 900px;
-  column-gap: 10%;
+  -moz-column-gap: 10%;
+       column-gap: 10%;
   justify-content: center;
   align-content: first baseline;
 }
@@ -296,7 +300,8 @@ footer {
 .serviimag {
   display: grid;
   grid-template-columns: 400px 400px 400px;
-  column-gap: 5%;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
   justify-content: center;
 }
 .serviimag .imagenser1 img {
@@ -326,6 +331,7 @@ footer {
     width: 500px;
   }
   .perfil2 {
+    padding-left: 10%;
     grid-template-columns: 500px;
   }
   .perfil2 img {
@@ -362,16 +368,16 @@ footer {
     display: none;
   }
   .perfil img {
-    width: 600px;
+    width: 500px;
   }
   .perfil {
-    grid-template-columns: 600px;
+    grid-template-columns: 500px;
   }
   .perfil2 img {
-    width: 600px;
+    width: 500px;
   }
   .perfil2 {
-    grid-template-columns: 600px;
+    grid-template-columns: 500px;
   }
   .nosotros img {
     width: 400px;
@@ -396,6 +402,4 @@ footer {
   .contacton2 .imagencontactanos {
     grid-area: imagen;
   }
-}
-
-/*# sourceMappingURL=stilos.css.map */
+}/*# sourceMappingURL=stilos.css.map */
