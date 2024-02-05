@@ -1,0 +1,26 @@
+.animacionbanner{
+color:white;
+font-size: 4rem;
+animation-name: animacionbanner;
+animation-iteration-count: infinite;
+animation-duration: 4s;
+animation-delay: 0;
+}
+
+@keyframes animacionbanner{
+    0%{
+        color: white;
+    }
+    25%{
+        color:$claro;
+    }
+    50%{
+        color:$intermedio;
+    }
+    75%{
+        color:$oscuro
+    }
+    100%{
+        color: white;
+    }
+}

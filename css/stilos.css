@@ -25,6 +25,32 @@ p {
   font-size: 1.5rem;
 }
 
+.animacionbanner {
+  color: white;
+  font-size: 4rem;
+  animation-name: animacionbanner;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-delay: 0;
+}
+
+@keyframes animacionbanner {
+  0% {
+    color: white;
+  }
+  25% {
+    color: #E0F4FF;
+  }
+  50% {
+    color: hsl(210, 100%, 76%);
+  }
+  75% {
+    color: #39A7FF;
+  }
+  100% {
+    color: white;
+  }
+}
 header .navcolor {
   background-color: #E0F4FF;
 }
@@ -65,7 +91,7 @@ footer {
 }
 
 .bienvenida {
-  background-color: aliceblue;
+  background-image: linear-gradient(to left bottom, #84cdfc, #a7d4ff, #c4dcff, #dbe5ff, #edefff, #edefff, #edefff, #edefff, #dbe5ff, #c4dcff, #a7d4ff, #84cdfc);
   color: black;
   padding: 5px;
   padding-left: 2%;
@@ -114,7 +140,7 @@ footer {
 
 .contacton2 {
   margin-top: 10%;
-  background-color: #E0F4FF;
+  background-image: linear-gradient(to left bottom, #84cdfc, #a7d4ff, #c4dcff, #dbe5ff, #edefff, #edefff, #edefff, #edefff, #dbe5ff, #c4dcff, #a7d4ff, #84cdfc);
   display: grid;
   grid-template-columns: 500px 500px;
   grid-template-rows: 400px;
@@ -134,11 +160,11 @@ footer {
   margin: auto;
   margin-top: 2%;
   text-align: center;
-  background-color: #87C4FF;
+  background-image: linear-gradient(to left bottom, #84cdfc, #a7d4ff, #c4dcff, #dbe5ff, #edefff, #edefff, #edefff, #edefff, #dbe5ff, #c4dcff, #a7d4ff, #84cdfc);
   padding: 30px;
   border-radius: 2px;
   font-family: "calibri";
-  color: white;
+  color: rgb(5, 5, 6);
   box-shadow: 7px 13px 37px #87C4FF;
 }
 .contacton3 .form {
@@ -188,24 +214,35 @@ footer {
   font-size: 25px;
 }
 .nosotros .n2 {
-  background-color: aliceblue;
+  background-image: linear-gradient(to left bottom, #84cdfc, #a7d4ff, #c4dcff, #dbe5ff, #edefff, #edefff, #edefff, #edefff, #dbe5ff, #c4dcff, #a7d4ff, #84cdfc);
   grid-area: mision;
 }
+.nosotros .n2 .vision {
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
 .nosotros .n2 .pnosotros {
-  font-size: 25px;
+  font-size: 23px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
 }
 .nosotros .n3 {
-  background-color: aliceblue;
+  background-image: linear-gradient(to left bottom, #84cdfc, #a7d4ff, #c4dcff, #dbe5ff, #edefff, #edefff, #edefff, #edefff, #dbe5ff, #c4dcff, #a7d4ff, #84cdfc);
   grid-area: vision;
 }
 .nosotros .n3 .pnosotros {
-  font-size: 25px;
+  font-size: 23px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+.nosotros .n3 .mision {
+  margin-top: 1%;
+  margin-bottom: 5%;
 }
 .nosotros .n4 {
   grid-area: imagen;
-}
-.nosotros .n4 .pnosotros {
-  font-size: 25px;
 }
 
 .psicologop {
@@ -236,7 +273,7 @@ footer {
 }
 
 .parrafop {
-  background-color: #E0F4FF;
+  background-image: linear-gradient(to left bottom, #84cdfc, #a7d4ff, #c4dcff, #dbe5ff, #edefff, #edefff, #edefff, #edefff, #dbe5ff, #c4dcff, #a7d4ff, #84cdfc);
 }
 .parrafop .nombrep1 {
   margin-top: 3%;
@@ -266,6 +303,7 @@ footer {
 
 .perfil2 img {
   width: 400px;
+  height: 400px;
 }
 
 .serviciod .titulos1 {
@@ -342,20 +380,32 @@ footer {
   .nosotros {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
   }
-  .contacton2 {
-    display: flex;
-    flex-direction: column;
-    padding-left: 10%;
+  .n2 {
+    margin-top: 10%;
   }
-  .contacton2 img {
-    width: 250px;
+  .n3 {
+    margin-top: 10%;
   }
-  .contacton3 {
-    width: 80%;
+  .n4 {
+    margin-top: 10%;
   }
 }
+.contacton2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+}
+
+.contacton2 img {
+  width: 250px;
+}
+
+.contacton3 {
+  width: 80%;
+}
+
 @media only screen and (min-width: 480px) and (max-width: 1200px) {
   .imagenesindex {
     grid-template-columns: 400px;

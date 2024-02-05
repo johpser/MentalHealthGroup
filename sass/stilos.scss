@@ -14,9 +14,8 @@ html{
 }
   body{ 
     font-family: $font; 
-    background-color:white;
-}
-
+background-color: white;
+  }
 h1{
     font-size: 4rem;
 }
@@ -27,7 +26,7 @@ h2{
 p{
     font-size: 1.5rem;
 }
-
+@import "generales/animaciones";
 @import "generales/headerfooter";
 
 @import "page/index";
