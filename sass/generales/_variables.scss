@@ -9,11 +9,12 @@ $crema: #FFEED9;
 
 // mixin 
 
-@mixin flex ($direccion, $justify, $aling){
-    display: flex;
-    flex-direction: $direccion;
-    justify-content: $justify;
-    align-items: $aling;
+@mixin formato ($mtop, $mbtt, $aling, $fonz)
+{
+    margin-top: $mtop;
+    margin-bottom: $mbtt;
+    text-align: $aling;
+    font-size: $fonz;
 }
 
 

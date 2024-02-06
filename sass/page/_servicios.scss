@@ -1,15 +1,9 @@
 .serviciod{
     .titulos1{
-        margin-top: 10%;
-        margin-bottom: 4%;
-        text-align: center;
-        font-size: 3rem;
+        @include formato(10%, 4%, center, 3rem)
     }
     .titulos2{
-        margin-top: 10%;
-        margin-bottom: 5%;
-        text-align: center;
-        font-size: 3rem;
+        @include formato(10%, 5%, center, 3rem)
     }
 }
 
