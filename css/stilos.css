@@ -78,9 +78,11 @@ header .navcolor ul li {
 }
 
 footer {
-  background-color: #39A7FF;
-  text-align: center;
+  padding-top: 1%;
+  height: 100px;
   margin-top: 5%;
+  background-image: linear-gradient(to left bottom, #ffffff, #f2f3ff, #e1e9ff, #ccdfff, #b1d7ff, #b1d7ff, #b1d7ff, #b1d7ff, #ccdfff, #e1e9ff, #f2f3ff, #ffffff);
+  text-align: center;
 }
 
 .titulo2 {
