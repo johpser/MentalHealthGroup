@@ -266,7 +266,6 @@ footer {
 }
 
 .perfil {
-  margin-right: 10%;
   margin-top: 4%;
   margin-bottom: 10%;
   display: grid;
@@ -274,7 +273,7 @@ footer {
   -moz-column-gap: 10%;
        column-gap: 10%;
   justify-content: center;
-  align-content: first baseline;
+  align-content: center;
 }
 
 .perfil img {
@@ -300,7 +299,6 @@ footer {
 }
 
 .perfil2 {
-  margin-right: 10%;
   margin-top: 4%;
   margin-bottom: 10%;
   display: grid;
@@ -308,7 +306,7 @@ footer {
   -moz-column-gap: 10%;
        column-gap: 10%;
   justify-content: center;
-  align-content: first baseline;
+  align-content: center;
 }
 
 .perfil2 img {
