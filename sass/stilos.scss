@@ -2,31 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto+Slab&display=swap');
 
-// estilos generales 
+@import"generales/reglasgenerales.scss";
 
-*{
-    margin: 0%;
-   
-    padding: 0;
-}
 
-html{
-    font-size: 62.5%;
-}
-  body{ 
-    font-family: $font; 
-background-color: white;
-  }
-h1{
-    font-size: 4rem;
-}
 
-h2{
-    font-size: 3rem;
-}
-p{
-    font-size: 1.5rem;
-}
 @import "generales/animaciones";
 @import "generales/headerfooter";
 

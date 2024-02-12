@@ -1,0 +1,24 @@
+// estilos generales 
+*{
+    margin: 0%;
+   
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+  body{ 
+    font-family: $font; 
+background-color: white;
+  }
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.5rem;
+}
