@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto+Slab&display=swap");
 * {
-  margin: 0;
+  margin: 0%;
   padding: 0;
 }
 
@@ -266,6 +266,7 @@ footer {
 }
 
 .perfil {
+  margin-right: 10%;
   margin-top: 4%;
   margin-bottom: 10%;
   display: grid;
@@ -299,6 +300,7 @@ footer {
 }
 
 .perfil2 {
+  margin-right: 10%;
   margin-top: 4%;
   margin-bottom: 10%;
   display: grid;
