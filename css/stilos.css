@@ -55,7 +55,7 @@ header .navcolor {
   background-color: #E0F4FF;
 }
 header .navcolor img {
-  width: 120px;
+  width: 100px;
   margin-top: 5px;
   margin-left: 5px;
 }
@@ -67,7 +67,7 @@ header .navcolor ul li {
 
 .banner {
   background-image: url(../archivos/banner5.avif);
-  height: 200px;
+  height: 150px;
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -75,6 +75,7 @@ header .navcolor ul li {
   color: white;
   text-shadow: 4px 1px 19px rgb(0, 0, 0);
   margin-bottom: 10%;
+  padding-top: 2.5%;
 }
 
 footer {
@@ -90,13 +91,14 @@ footer {
   text-align: center;
   color: black;
   text-decoration: underline;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .bienvenida {
   background-image: linear-gradient(to left bottom, #84cdfc, #a7d4ff, #c4dcff, #dbe5ff, #edefff, #edefff, #edefff, #edefff, #dbe5ff, #c4dcff, #a7d4ff, #84cdfc);
   color: black;
   padding: 5px;
-  padding-left: 2%;
   margin-top: 4%;
 }
 .bienvenida .texto1 {
@@ -215,7 +217,7 @@ footer {
   margin-right: 2%;
 }
 .nosotros .n1 .pnosotros {
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -228,7 +230,7 @@ footer {
   margin-bottom: 5%;
 }
 .nosotros .n2 .pnosotros {
-  font-size: 23px;
+  font-size: 20px;
   margin-left: 2%;
   margin-right: 2%;
   margin-bottom: 2%;
@@ -238,7 +240,7 @@ footer {
   grid-area: vision;
 }
 .nosotros .n3 .pnosotros {
-  font-size: 23px;
+  font-size: 20px;
   margin-left: 2%;
   margin-right: 2%;
   margin-bottom: 2%;
@@ -388,19 +390,13 @@ footer {
     flex-direction: column;
     text-align: center;
   }
-  .n2 {
-    margin-top: 10%;
-  }
-  .n3 {
-    margin-top: 10%;
-  }
-  .n4 {
-    margin-top: 10%;
-  }
   .contacton .tituloc {
-    margin-left: 20%;
-    margin-right: 20%;
-    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+    font-size: 1 rem;
   }
   .contacton2 {
     display: flex;
