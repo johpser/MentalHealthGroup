@@ -303,7 +303,7 @@ footer {
   margin-top: 4%;
   margin-bottom: 10%;
   display: grid;
-  grid-template-columns: 300px 840px;
+  grid-template-columns: 400px 840px;
   -moz-column-gap: 1%;
        column-gap: 1%;
   justify-content: center;
