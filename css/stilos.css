@@ -270,9 +270,9 @@ footer {
   margin-top: 4%;
   margin-bottom: 10%;
   display: grid;
-  grid-template-columns: 300px 800px;
-  -moz-column-gap: 10%;
-       column-gap: 10%;
+  grid-template-columns: 400px 840px;
+  -moz-column-gap: 1%;
+       column-gap: 1%;
   justify-content: center;
   align-content: center;
 }
@@ -303,9 +303,9 @@ footer {
   margin-top: 4%;
   margin-bottom: 10%;
   display: grid;
-  grid-template-columns: 300px 800px;
-  -moz-column-gap: 10%;
-       column-gap: 10%;
+  grid-template-columns: 300px 840px;
+  -moz-column-gap: 1%;
+       column-gap: 1%;
   justify-content: center;
   align-content: center;
 }
