@@ -270,7 +270,7 @@ footer {
   margin-top: 4%;
   margin-bottom: 10%;
   display: grid;
-  grid-template-columns: 300px 900px;
+  grid-template-columns: 300px 850px;
   -moz-column-gap: 10%;
        column-gap: 10%;
   justify-content: center;
@@ -303,7 +303,7 @@ footer {
   margin-top: 4%;
   margin-bottom: 10%;
   display: grid;
-  grid-template-columns: 300px 900px;
+  grid-template-columns: 300px 850px;
   -moz-column-gap: 10%;
        column-gap: 10%;
   justify-content: center;
@@ -329,6 +329,8 @@ footer {
 }
 
 .servitexx1 {
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 10%;
 }
 .servitexx1 .servitexx {
@@ -346,7 +348,7 @@ footer {
 
 .serviimag {
   display: grid;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: 350px 350px 350px;
   -moz-column-gap: 5%;
        column-gap: 5%;
   justify-content: center;
