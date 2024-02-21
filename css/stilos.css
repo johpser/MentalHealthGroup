@@ -270,7 +270,7 @@ footer {
   margin-top: 4%;
   margin-bottom: 10%;
   display: grid;
-  grid-template-columns: 400px 840px;
+  grid-template-columns: 300px 830px;
   -moz-column-gap: 1%;
        column-gap: 1%;
   justify-content: center;
@@ -278,7 +278,8 @@ footer {
 }
 
 .perfil img {
-  width: 400px;
+  width: 300px;
+  height: 300px;
 }
 
 .parrafop {
@@ -303,7 +304,7 @@ footer {
   margin-top: 4%;
   margin-bottom: 10%;
   display: grid;
-  grid-template-columns: 400px 840px;
+  grid-template-columns: 300px 830px;
   -moz-column-gap: 1%;
        column-gap: 1%;
   justify-content: center;
@@ -311,7 +312,7 @@ footer {
 }
 
 .perfil2 img {
-  width: 400px;
+  width: 300px;
   height: 400px;
 }
 
