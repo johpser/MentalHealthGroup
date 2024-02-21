@@ -270,7 +270,7 @@ footer {
   margin-top: 4%;
   margin-bottom: 10%;
   display: grid;
-  grid-template-columns: 300px 850px;
+  grid-template-columns: 300px 800px;
   -moz-column-gap: 10%;
        column-gap: 10%;
   justify-content: center;
@@ -303,7 +303,7 @@ footer {
   margin-top: 4%;
   margin-bottom: 10%;
   display: grid;
-  grid-template-columns: 300px 850px;
+  grid-template-columns: 300px 800px;
   -moz-column-gap: 10%;
        column-gap: 10%;
   justify-content: center;
