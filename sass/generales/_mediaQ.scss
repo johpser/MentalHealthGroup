@@ -1,28 +1,75 @@
 @media screen and ( max-width: 479px){
-
+body{
+    background-color: rgb(47, 255, 5);
+}
+.titulo2{
+    font-size: 1.5rem;
+}
+.bienvenida{
+    padding-top: 3%;
+    font-size: 1.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
     .imagenesindex
     {
         grid-template-columns: 350px;
     }
+    .serviciod{
+    .titulos1
+    {
+    
+        font-size: 1.7rem;
+    }
+    
+        .titulos2{
+            font-size: 1.7rem;
+
+        }
+}
     .serviimag{
         display: none;
     }
-    
+
+    .psicologop{
+        margin-top: 3%;
+        text-align: center;
+
+      .perfilprofe
+       {
+        font-size: 3rem;
+      }
+     
+        .profesionales{
+            text-align: justify;
+            margin-top: 4%;
+            font-size: 1.5rem;
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+    }
+}
+
+
     .perfil{
-        grid-template-columns: 400px;
+        grid-template-columns: 420px;
+        align-items: center;
+        justify-content: center;
     }
     
     .perfil img{
-        width: 400px;
+        width: 420px;
     }
     
-    .perfil2{
-        grid-template-columns: 400px;
-
+    .perfil2
+    {
+        grid-template-columns: 420px;
+        align-items: center;
+        justify-content: center;
     }
     
     .perfil2 img{
-        width: 400px;
+        width: 420px;
     }
     .nosotros img{
         width: 100%;
@@ -32,6 +79,17 @@
         display: flex;
         flex-direction:column;
         text-align: center;
+        }
+        .n1{
+            text-align: justify;
+            grid-area: descripcion;
+            margin-left: 2%;
+            margin-right: 2%;
+            .pnosotros{
+                font-size: 1rem;
+                margin-left: 3%;
+                margin-right: 3%;
+            }
         }
         .n2{
             margin-top: 10%;     
@@ -50,7 +108,7 @@
             margin-left: 3% ;
             margin-right: 3% ;
             text-align: center;
-            font-size: 1 rem;
+            font-size: 1.5rem;
         }
     }
         
@@ -68,7 +126,7 @@
            width: 80%;
         
         }
-    }
+    
 
 @media only screen and (min-width: 480px) and (max-width: 1200px)
 {
