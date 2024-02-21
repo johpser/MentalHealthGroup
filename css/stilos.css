@@ -2,6 +2,7 @@
 * {
   margin: 0%;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -351,16 +352,13 @@ footer {
   justify-content: center;
 }
 .serviimag .imagenser1 img {
-  width: 400px;
+  width: 350px;
 }
 .serviimag .imagenser2 img {
-  width: 400px;
+  width: 350px;
 }
 .serviimag .imagenser3 img {
-  width: 400px;
-}
-.serviimag .n4 img {
-  width: 500px;
+  width: 350px;
 }
 
 @media screen and (max-width: 479px) {
