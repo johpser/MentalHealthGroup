@@ -101,18 +101,18 @@ footer {
   color: black;
   padding: 5px;
   margin-top: 4%;
-}
-.bienvenida .texto1 {
   text-align: justify;
   font-size: 2rem;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .imagenesindex {
   margin-top: 10%;
   display: grid;
   grid-template-columns: 400px 400px 400px;
-  -moz-column-gap: 5%;
-       column-gap: 5%;
+  -moz-column-gap: 2%;
+       column-gap: 2%;
   justify-content: center;
 }
 
