@@ -75,7 +75,7 @@ header .navcolor ul li {
   font-size: larger;
   color: white;
   text-shadow: 4px 1px 19px rgb(0, 0, 0);
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   padding-top: 2.5%;
 }
 
@@ -446,10 +446,10 @@ footer {
     width: 400px;
   }
   .nosotros {
-    margin-top: 42%;
-    margin-bottom: 30%;
-    grid-template-columns: 500px;
-    grid-template-rows: 350px 300px 310px 400px;
+    margin-top: 1%;
+    gap: 1%;
+    grid-template-columns: 800px;
+    grid-template-rows: 176px 300px 310px 400px;
     grid-template-areas: "descripcion" "mision" "vision" "imagen";
   }
   .contacton2 {

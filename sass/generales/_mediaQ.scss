@@ -106,10 +106,10 @@
 }
 
 .nosotros{ 
-    margin-top: 42%;
-    margin-bottom: 30%;
-    grid-template-columns:500px;
-    grid-template-rows:350px  300px 310px 400px;
+    margin-top: 1%;
+    gap: 1%;
+    grid-template-columns:800px;
+    grid-template-rows:176px  300px 310px 400px;
     grid-template-areas: 
     
     "descripcion"
@@ -133,7 +133,7 @@
     .imagencontactanos{
         grid-area: imagen;
     }   
-    }
+    }  
 }
 
 
