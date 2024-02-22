@@ -125,9 +125,6 @@
             font-size: rem;
         }
 
-        .contacton3{
-            width: 80%;
-        }
 
         .contacton2{
            display:flex;
@@ -139,6 +136,10 @@
     
         .contacton2 img{
         width: 250px
+        }
+
+        .contacton3{
+            width: 80%;
         }
     }
 
@@ -204,7 +205,10 @@
     .imagencontactanos{
         grid-area: imagen;
     }   
-    }  
+    } 
+    .contacton3{
+        width: 80%;
+    } 
 }
 
 

@@ -469,9 +469,6 @@ footer {
   .tituloc {
     font-size: rem;
   }
-  .contacton3 {
-    width: 80%;
-  }
   .contacton2 {
     display: flex;
     flex-direction: column;
@@ -481,6 +478,9 @@ footer {
   }
   .contacton2 img {
     width: 250px;
+  }
+  .contacton3 {
+    width: 80%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 1200px) {
@@ -527,5 +527,8 @@ footer {
   }
   .contacton2 .imagencontactanos {
     grid-area: imagen;
+  }
+  .contacton3 {
+    width: 80%;
   }
 }/*# sourceMappingURL=stilos.css.map */
