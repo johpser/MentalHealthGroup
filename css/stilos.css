@@ -323,12 +323,14 @@ footer {
 }
 
 .serviciod .titulos1 {
+  background-image: linear-gradient(to left bottom, #84cdfc, #a7d4ff, #c4dcff, #dbe5ff, #edefff, #edefff, #edefff, #edefff, #dbe5ff, #c4dcff, #a7d4ff, #84cdfc);
   margin-top: 10%;
   margin-bottom: 4%;
   text-align: center;
   font-size: 3rem;
 }
 .serviciod .titulos2 {
+  background-image: linear-gradient(to left bottom, #84cdfc, #a7d4ff, #c4dcff, #dbe5ff, #edefff, #edefff, #edefff, #edefff, #dbe5ff, #c4dcff, #a7d4ff, #84cdfc);
   margin-top: 10%;
   margin-bottom: 5%;
   text-align: center;
@@ -413,8 +415,8 @@ footer {
     text-align: justify;
     margin-top: 4%;
     font-size: 1.5rem;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
   }
   .perfil {
     grid-template-columns: 420px;
@@ -422,7 +424,9 @@ footer {
     justify-content: center;
   }
   .perfil img {
-    width: 420px;
+    width: 300px;
+    height: 300px;
+    margin-left: 15%;
   }
   .perfil2 {
     grid-template-columns: 420px;
@@ -430,7 +434,9 @@ footer {
     justify-content: center;
   }
   .perfil2 img {
-    width: 420px;
+    width: 300px;
+    height: 300px;
+    margin-left: 15%;
   }
   .nosotros img {
     width: 100%;

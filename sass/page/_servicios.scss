@@ -1,8 +1,12 @@
 .serviciod{
     .titulos1{
+        background-image: linear-gradient(to left bottom, #84cdfc, #a7d4ff, #c4dcff, #dbe5ff, #edefff, #edefff, #edefff, #edefff, #dbe5ff, #c4dcff, #a7d4ff, #84cdfc);  
         @include formato(10%, 4%, center, 3rem)
+        
+
     }
     .titulos2{
+        background-image: linear-gradient(to left bottom, #84cdfc, #a7d4ff, #c4dcff, #dbe5ff, #edefff, #edefff, #edefff, #edefff, #dbe5ff, #c4dcff, #a7d4ff, #84cdfc);  
         @include formato(10%, 5%, center, 3rem)
     }
 }
