@@ -136,13 +136,13 @@ footer {
   text-transform: uppercase;
 }
 
-.contacton .tituloc {
+.tituloc {
   margin-top: 10%;
   margin-bottom: 4%;
   margin-left: 3%;
   margin-right: 3%;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .contacton2 {
@@ -155,15 +155,14 @@ footer {
   justify-content: center;
 }
 .contacton2 .datos {
-  margin-top: 12%;
+  margin-top: 10%;
 }
-
-.imagencontactanos img {
+.contacton2 .imagencontactanos img {
   width: 400px;
 }
 
 .contacton3 {
-  width: 400px;
+  width: 40%;
   margin: auto;
   margin-top: 2%;
   text-align: center;
@@ -199,64 +198,71 @@ footer {
 }
 
 .nosotros {
-  margin-top: 10%;
+  margin-top: 8%;
   display: grid;
   grid-template-columns: 450px 450px;
-  grid-template-rows: 100px 400px 500px;
-  -moz-column-gap: 5%;
-       column-gap: 5%;
-  row-gap: 10%;
+  grid-template-rows: 154px 317px 600px;
+  -moz-column-gap: 3%;
+       column-gap: 3%;
+  row-gap: 2%;
   justify-content: center;
   align-content: center;
   text-align: center;
   grid-template-areas: "descripcion descripcion" "mision vision" "imagen imagen";
 }
-.nosotros .n1 {
+
+.n1 {
   text-align: justify;
   grid-area: descripcion;
   margin-left: 2%;
   margin-right: 2%;
 }
-.nosotros .n1 .pnosotros {
+.n1 .pnosotros {
   font-size: 2rem;
   margin-left: 3%;
   margin-right: 3%;
 }
-.nosotros .n2 {
+
+.n2 {
   background-image: linear-gradient(to left bottom, #84cdfc, #a7d4ff, #c4dcff, #dbe5ff, #edefff, #edefff, #edefff, #edefff, #dbe5ff, #c4dcff, #a7d4ff, #84cdfc);
   grid-area: mision;
 }
-.nosotros .n2 .vision {
+.n2 .vision {
   margin-top: 1%;
   margin-bottom: 5%;
 }
-.nosotros .n2 .pnosotros {
-  font-size: 1.5rem;
+.n2 .pnosotros {
+  font-size: 2rem;
   margin-left: 2%;
   margin-right: 2%;
   margin-bottom: 2%;
 }
-.nosotros .n3 {
+
+.n3 {
   background-image: linear-gradient(to left bottom, #84cdfc, #a7d4ff, #c4dcff, #dbe5ff, #edefff, #edefff, #edefff, #edefff, #dbe5ff, #c4dcff, #a7d4ff, #84cdfc);
   grid-area: vision;
 }
-.nosotros .n3 .pnosotros {
-  font-size: 1.5rem;
+.n3 .pnosotros {
+  font-size: 2rem;
   margin-left: 4%;
   margin-right: 2%;
   margin-bottom: 2%;
 }
-.nosotros .n3 .mision {
+.n3 .mision {
   margin-top: 1%;
   margin-bottom: 5%;
 }
-.nosotros .n4 {
+
+.n4 {
   grid-area: imagen;
 }
 
 .psicologop {
   margin-top: 3%;
   text-align: center;
+}
+.psicologop .perfilespro {
+  font-size: 3rem;
 }
 .psicologop .profesionales {
   text-align: justify;
@@ -365,8 +371,8 @@ footer {
 }
 
 @media screen and (max-width: 479px) {
-  body {
-    background-color: rgb(47, 255, 5);
+  .tituloc {
+    font-size: 1.5rem;
   }
   .titulo2 {
     font-size: 1.5rem;
@@ -393,94 +399,90 @@ footer {
     margin-top: 3%;
     text-align: center;
   }
-  .psicologop .perfilprofe {
-    font-size: 3rem;
+  .perfilprofe {
+    font-size: 555rem;
+  }
+  .psicologop {
+    margin-top: 3%;
+    text-align: center;
+  }
+  .psicologop .perfilespro {
+    font-size: 1.75rem;
   }
   .psicologop .profesionales {
     text-align: justify;
     margin-top: 4%;
     font-size: 1.5rem;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .perfil {
+    grid-template-columns: 420px;
+    align-items: center;
+    justify-content: center;
+  }
+  .perfil img {
+    width: 420px;
+  }
+  .perfil2 {
+    grid-template-columns: 420px;
+    align-items: center;
+    justify-content: center;
+  }
+  .perfil2 img {
+    width: 420px;
+  }
+  .nosotros img {
+    width: 100%;
+  }
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .n1 {
+    text-align: justify;
+    grid-area: descripcion;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .n1 .pnosotros {
+    font-size: 1.5rem;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .n2 {
+    margin-top: 10%;
+  }
+  .n2 .pnosotros {
+    font-size: 1.5rem;
+  }
+  .n3 {
+    margin-top: 10%;
+  }
+  .n3 .pnosotros {
+    font-size: 1.5rem;
+  }
+  .n4 {
+    margin-top: 10%;
+  }
+  .tituloc {
+    font-size: rem;
+  }
+  .contacton3 {
+    width: 80%;
+  }
+  .contacton2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+  }
+  .contacton2 img {
+    width: 250px;
   }
 }
-.perfil {
-  grid-template-columns: 420px;
-  align-items: center;
-  justify-content: center;
-}
-
-.perfil img {
-  width: 420px;
-}
-
-.perfil2 {
-  grid-template-columns: 420px;
-  align-items: center;
-  justify-content: center;
-}
-
-.perfil2 img {
-  width: 420px;
-}
-
-.nosotros img {
-  width: 100%;
-}
-
-.nosotros {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.n1 {
-  text-align: justify;
-  grid-area: descripcion;
-  margin-left: 2%;
-  margin-right: 2%;
-}
-.n1 .pnosotros {
-  font-size: 1rem;
-  margin-left: 3%;
-  margin-right: 3%;
-}
-
-.n2 {
-  margin-top: 10%;
-}
-
-.n3 {
-  margin-top: 10%;
-}
-
-.n4 {
-  margin-top: 10%;
-}
-
-.contacton .tituloc {
-  margin-top: 10%;
-  margin-bottom: 4%;
-  margin-left: 3%;
-  margin-right: 3%;
-  text-align: center;
-  font-size: 1.5rem;
-}
-
-.contacton2 {
-  display: flex;
-  flex-direction: column;
-  padding-left: 10%;
-}
-
-.contacton2 img {
-  width: 250px;
-}
-
-.contacton3 {
-  width: 80%;
-}
-
 @media only screen and (min-width: 480px) and (max-width: 1200px) {
   .imagenesindex {
     grid-template-columns: 400px;
