@@ -372,7 +372,7 @@ footer {
   width: 350px;
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 459px) {
   .tituloc {
     font-size: 1.5rem;
   }
@@ -393,6 +393,23 @@ footer {
   }
   .serviciod .titulos2 {
     font-size: 1.7rem;
+  }
+  .servitexx1 {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 7%;
+  }
+  .servitexx1 .servitexx {
+    text-decoration: none;
+  }
+  .servitexx1 .servitexx .texser1 {
+    font-size: 1rem;
+    text-align: left;
+  }
+  .servitexx1 .servitexx .texser1:hover {
+    color: #E0F4FF;
+    background-color: #39A7FF;
+    font-weight: 800;
   }
   .serviimag {
     display: none;
@@ -489,7 +506,7 @@ footer {
     width: 80%;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 1200px) {
+@media only screen and (min-width: 460px) and (max-width: 1200px) {
   .imagenesindex {
     grid-template-columns: 400px;
     grid-template-rows: 400px 400px 400px;
